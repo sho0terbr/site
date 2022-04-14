@@ -1,7 +1,7 @@
 :root {
-    --cor1: #f802029c;
-    --cor2: #810b0d;
-    --cor3: #f5bdbd;
+    --cor1: #6a1819d2;
+    --cor2: #6a181a;
+    --cor3: #6a1819d2;
    
 
     /*910707*/
@@ -66,6 +66,7 @@ a.navbar-brand {
 }
 
 h1 {
+    color: rgb(199, 194, 194)!important;
     text-align: center;
     padding-bottom: 10px;
 }
