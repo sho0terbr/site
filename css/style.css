@@ -1,7 +1,7 @@
 :root {
-    --cor1: #6a1819d2;
+    --cor1: #6a1819cb;
     --cor2: #6a181a;
-    --cor3: #6a1819d2;
+    --cor3: #6a1819cb;
    
 
     /*910707*/
@@ -20,6 +20,8 @@ body {
 
 }
 
+p {
+    padding-top: 10px;}
 
 .navbar {
     
@@ -47,6 +49,28 @@ a.navbar-brand {
         color: #fff!important;
     }
 }
+
+.wathsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+@media only screen and (max-width:420px) {
+    .wathsapp {
+        bottom: 30px;
+    right: 10px;
+    }
+}
+
 
 .descricao {
     display: flex;
@@ -148,6 +172,12 @@ div#navbarNavAltMarkup {
 footer {
     background-color: var(--cor2) !important;
 }
+.rodape{
+    margin-bottom: -15px;
+   
+    padding: 5px;
+}
+
 
 #img_parceiras img{
     width: 150px;
@@ -177,6 +207,9 @@ img.seguros{
 .conteudo{
     background-color: rgba(238, 238, 238, 0.37);
     text-align: justify;
+}
+.col-lg-6.conteudo {
+    padding-bottom: 15px;
 }
 
 .row{
