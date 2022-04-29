@@ -1,7 +1,7 @@
 :root {
-    --cor1: #6a1819cb;
+    --cor1: #ffffffcb;
     --cor2: #6a181a;
-    --cor3: #6a1819cb;
+    --cor3: #ffffffcb;
    
 
     /*910707*/
@@ -104,7 +104,7 @@ a.navbar-brand {
 }
 
 h2 {
-    color: #ffffffce!important;
+    color: #6a181a!important;
    
     padding-bottom: 10px;
 }
@@ -198,9 +198,7 @@ div#navbarNavAltMarkup {
     background-color: var(--cor2) !important;
 }
 
-.img {
-    width: 50%;
-}
+
 .imgCol{
    
     padding-right: 0px!important;
@@ -252,7 +250,7 @@ img.seguros{
 }
 
 .conteudo{
-    background-color: rgba(238, 238, 238, 0.37);
+    background-color: #f5dcdc57;
     text-align: justify;
 }
 .col-lg-6.conteudo {
@@ -267,5 +265,5 @@ img.seguros{
 }
 
 a.nav-item.nav-link {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
