@@ -1,0 +1,269 @@
+:root {
+    --cor1: #ffffffcb;
+    --cor2: #6a181a;
+    --cor3: #ffffffcb;
+   
+
+    /*910707*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font: 20px Arial, San-serif;
+
+}
+
+p {
+    padding-top: 10px;}
+
+.navbar {
+    
+        justify-content: center!important;
+  
+}
+
+.navbar-nav .nav-link {
+    
+    padding-left: 15px!important;
+}
+
+a.navbar-brand {
+   
+    color: #fff!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff!important;
+}
+
+@media only screen and (max-width:420px){
+    img.d-block {
+        height: 20rem!important;
+    }
+       
+}
+
+@media only screen and (max-width:420px){
+    .carousel-caption {
+        position: initial!important;
+}
+    
+}
+
+@media only screen and (max-width:420px) {
+    a.navbar-brand {
+        padding-left: 15px!important;
+        color: #fff!important;
+    }
+}
+
+.wathsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+@media only screen and (max-width:420px) {
+    .wathsapp {
+        bottom: 30px;
+    right: 10px;
+    }
+}
+
+
+.descricao {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: var(--cor3)
+}
+
+.top{
+    margin-top: 136px;
+}
+
+@media only screen and (max-width:420px) {
+    .top{
+        margin-top: 176px;
+    }
+}
+
+h2 {
+    color: #6a181a!important;
+   
+    padding-bottom: 10px;
+}
+h2.title{
+    
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin: 0 0 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem!important;
+    
+}
+h4 {
+    text-align: justify;
+    padding: 2rem;
+    padding-top: 2.5rem!important;
+    
+}
+h5{
+    text-align: justify;
+    padding: 1.5rem;
+    
+}
+h5.banner{
+   text-align: center;
+}
+
+div#navbarNavAltMarkup {
+    flex-direction: row-reverse;
+}
+
+#seguros {
+    background-color: var(--cor1);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#contato {
+    background-color: var(--cor1);
+   
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#quemsomos {
+    background-color: var(--cor3);
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+#parceiros {
+    background-color: var(--cor3);
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.carousel-caption {
+    
+    background-color: #00000096;
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+
+.carousel-seguros {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #00000096;
+    padding: 2px;
+    text-align: justify;
+  }
+  
+
+
+.navbar-color {
+    background-color: var(--cor2) !important;
+}
+
+
+.imgCol{
+   
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+
+.col-lg-4.img {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+footer {
+    background-color: var(--cor2) !important;
+}
+.rodape{
+    margin-bottom: -15px;
+   
+    padding: 5px;
+}
+
+
+#img_parceiras img{
+    width: 150px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 420px) 
+{
+    #img_parceiras img {
+        width: 100%;
+        height: 200;
+        padding-bottom: 20px;
+    }
+}
+
+img.parceiros {
+  
+    height: 150px;
+}
+
+img.seguros{
+    
+    height: 20rem!important;
+}
+
+.conteudo{
+    background-color: #f5dcdc57;
+    text-align: justify;
+}
+.col-lg-6.conteudo {
+    padding-bottom: 15px;
+}
+
+.row{
+    justify-content: center;
+    align-items: stretch;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+a.nav-item.nav-link {
+    font-size: 1.4rem;
+}
